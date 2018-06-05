@@ -1,0 +1,25 @@
+#NUMBERS
+
+Defining a number in JS is simple.
+The NUMBER data type includes any positive or negative integer, as well as decimals.
+Entering a number into the console will return it back to you.
+
+<b> Arithmetic Operations </b>
+Calculations with numbers are pretty easy as well. Type out an expression the way you would on a Sci-Calculator.
+3 + 2.1 -> 5.1
+5 + 5 -> 10
+
+Comparing Numbers
+You can compare two numbers to see if one's greater than, less than or equal to the other.
+5 > 10
+Returns: false
+5 < 10
+Returns: true
+
+Comparisons between numbers will either evaluate to true or false.
+
+The values <i>true</i> and <i>false</i> have significant inmportance in JavaScript.
+These values are called <b> Booleans </b> and this is another data type in JavaScript
+
+
+
