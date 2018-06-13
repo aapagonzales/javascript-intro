@@ -21,5 +21,9 @@ Comparisons between numbers will either evaluate to true or false.
 The values true and false have significant inmportance in JavaScript.
 These values are called Booleans and this is another data type in JavaScript
 
+//Comments
+Anything written on the same line after the // will not be executed or displayed
 
+Use /* .. */ --> to have the comment span multiple lines enclose the comment inside the star and forward slash 
 
+#Strings 
