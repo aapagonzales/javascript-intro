@@ -27,3 +27,131 @@ Anything written on the same line after the // will not be executed or displayed
 Use /* .. */ --> to have the comment span multiple lines enclose the comment inside the star and forward slash 
 
 #Strings 
+
+Strings can be single letters or entire words and can even contain numbers.
+Use "Quotes" to signify a string
+-> It can be a single quote ' ' 
+-> It can be a double quote " " 
+What's important is to be consistent with what you use
+
+Trying to pass a string without the quotes will return back an error, this happens because the JS engine processes another variable 
+called hello instead of a string with the value of "hello"
+
+Remember to use quotes when using strings.
+
+#String Concatenation
+
+Strings are a collection of characters enclosed inside double or single quotes. 
+Strings can be used to represent data like sentences, names, addresses, and more. 
+
+Strings can be added together and in JavaScript this is called concatenating.
+
+Concatenating two strings together is as simple as
+"Hello," + "New York City"
+
+will return as : "Hello, New York City"
+//If you want to have space in between two words, you need to explicitly add a space"
+
+Ex: 
+input -> "Hello + 5*10"
+output -> "Hello + 5*10"
+Strings can be any collection of characters that are surrounded by quotation marks.
+The " +5*10 " are just characters inside the quotation marks, so the interpreter will assume the whole object is a string.
+
+Input -> "Hello" + 5*10
+Output -> Hello50
+This is called Implicit type coercion and is a feature of JavaScript.
+JavaScript multiplies [5*10] to become [50] and then changes [50] into the string "50"
+Which makes you add together the same data type, which then gets combined with the string "Hello"
+
+#Variables
+//Variables allow you to access and reuse previous strings for later use, by storing the value of a string in a variable.
+ex:
+
+var greeting = "Hello";
+//By setting greeting as your variable for the string "Hello" you can just reuse the greeting variable
+if you want to use "Hello"
+
+greeting + "World";
+returns : Hello World!
+
+greeting + "Mike!";
+returns: Hello Mike!
+
+//You can also reassign a new string value to the variable if you want/need to
+
+greeting = "Hola";
+
+greeting + "World!";
+returns: Hola World!
+
+When creating a variable it's important to write the name of the variable using camelCase
+(the first word is loewrcase, and all following words are uppercase) Also use a variable name that accurately, but clearly describes what the data is about.
+//There are recommended style guides used in programming languages that help keep code consistent, clean and easy-to-read.
+
+Quiz:
+
+/*
+ * Programming Quiz: Converting Tempatures (2-2)
+ *
+ * The Celsius-to-Fahrenheit formula:
+ *
+ *    F = C x 1.8 + 32
+ *
+ * 1. Set the fahrenheit variable to the correct value using the celsius variable and the forumla above
+ * 2. Log the fahrenheit variable to the console
+ *
+ */
+
+var celsius = 12;
+var fahrenheit = celsius * 1.8 + 32;
+
+console.log(fahrenheit);
+
+END
+
+#Indexing
+You can access individual characters in a string, to access an individual character, you can use the character's location in the string
+which is called it's INDEX. 
+Put the index of the character inside the square brackets (starting with [0] as the first character) immediately after the string
+
+Example: 
+"James"[0];
+returns: "J"
+
+you will see this more commonly like this:
+var name = "James";
+name[0];
+returns: "J"
+
+//Characters within a string are indexed starting from 0, where the first character is at 0, to n-1, where the last character is at position n-1
+n = total number of characters within a string
+
+#Escpaing strings
+In JavaScript, you use the backslash \ to escape other characters
+Escaping a character tells JS to ignore the character's special meaning and just use the literal value of the character.
+This is helpful for characters that have special meanings like quotes "..."
+Quotes are used to signify the start and end of a string. Using the backslash gives access to the literal meaning
+This guarantees that the JavaScript engine interpret the string wrong and result in an error.
+
+#Special Characters
+Here's a list of some commmon special characters in JS
+
+Code -> Character
+\\ -> \(backslash)
+\" -> "(double quote)
+\' -> '(single quote)
+\n -> newline
+\t -> tab
+
+newline and tab -> add additional whitespace to the strings.
+newline -> will add a line break
+tab -> will advance your line to the next tab stop
+
+"Up up\n\tdown down"
+returns: Up up
+           down down
+
+#Comparing Strings
+
+
