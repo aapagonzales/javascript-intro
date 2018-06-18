@@ -153,5 +153,29 @@ returns: Up up
            down down
 
 #Comparing Strings
+Comparing is another way to work with strings. 
+
+EX: 
+"Yes" == "yes"
+returns : false
+
+When you run thi string in the console it returns false. Why? "Yes" and "yes" are not quite similar strings.
+When comparing strings case matters. While both string use the same letters and the letters appear the the same order,
+the first letter in the first strings is a capital Y while the first letter for 2nd string is a lowercase y
+
+>> Whenever you compare data the result of the comparison will always be a value of true or false
+
+#BOOLEAN
+#Booleans, only include two values 
+-> yes or no
+-> on or off 
+-> ture or false
+-> ones or zeroes 
+
+Boolean logic is a huge part of how we think about problems
+
+#Null, Undefined, and NaN
+
+
 
 
